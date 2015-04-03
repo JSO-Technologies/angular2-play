@@ -4,7 +4,7 @@ import {Component, Template} from 'angular2/angular2';
   selector: 'jso-title'
 })
 @Template({
-  url: 'jso-title/jso-title.html'
+  url: 'components/jso-title/jso-title.html'
 })
 
 export class JSOTitle {
