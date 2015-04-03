@@ -1,14 +1,14 @@
 import {Component, Template, bootstrap} from 'angular2/angular2';
 import {bind} from 'angular2/di';
 
-import {JSOTitle} from 'components/jso-title/jso-title'
+import {JSOTitle} from '../jso-title/jso-title'
 
 @Component({
   selector: 'mystories'
 })
 
 @Template({
-  url: 'mystories.html',
+  url: 'components/mystories/mystories.html',
   directives: [JSOTitle]
 })
 
