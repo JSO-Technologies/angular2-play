@@ -1,13 +1,15 @@
-import {Component, Template} from 'angular2/angular2';
+import {Component, View} from 'angular2/angular2';
 
 @Component({
   selector: 'jso-title'
 })
-@Template({
-  url: 'components/jso-title/jso-title.html'
+@View({
+  templateUrl: 'components/jso-title/jso-title.html'
 })
 
 export class JSOTitle {
+  name: string;
+
   constructor(){
     this.name = 'Jimmy';
   }
