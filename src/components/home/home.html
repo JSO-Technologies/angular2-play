@@ -1,0 +1,17 @@
+<div class="home">
+  <div class="background"
+       *for="#story of stories"
+       [style.opacity]="getBackgroundOpacity(story)"
+       [style.background]="story.background"></div>
+
+  <div class="story-list">
+    <div class="story-link" *for="#story of stories">
+      <hillvalley-card
+                       [background]="story.backgroundThumb"
+                       [title]="story.title"
+                       [description]="story.description"
+                       (mouseenter)="select(story)">
+      </hillvalley-card>
+    </div>
+  </div>
+</div>

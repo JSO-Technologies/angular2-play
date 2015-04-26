@@ -1,0 +1,28 @@
+.hillvalley-card {
+  @include full-background();
+  @include text-image-overlay();
+
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  border-top: 1px solid white;
+  padding: 10px;
+
+  cursor: default;
+
+  .title {
+    position: relative;
+    text-transform: capitalize;
+    color: white;
+  }
+
+  .description {
+    position: relative;
+    text-transform: capitalize;
+    color: white;
+
+    font-size: 0.8em;
+    ont-weight: 200;
+  }
+}

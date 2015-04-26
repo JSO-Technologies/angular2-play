@@ -1,7 +1,7 @@
 import {Component, View, bootstrap} from 'angular2/angular2';
 import {bind} from 'angular2/di';
 
-import {JSOTitle} from '../jso-title/jso-title'
+import {Home} from 'components/home/home'
 
 @Component({
   selector: 'mystories'
@@ -9,7 +9,7 @@ import {JSOTitle} from '../jso-title/jso-title'
 
 @View({
   templateUrl: 'components/mystories/mystories.html',
-  directives: [JSOTitle]
+  directives: [Home]
 })
 
 class Mystories {
